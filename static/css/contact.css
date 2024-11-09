@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Contact - s {% endblock %}
+
+{% block content %}
+<div class="contact-section">
+    <h1 class="contact-title">Contact Me</h1>
+
+    <div class="contact-grid">
+        <div class="contact-box">
+            <h2>Discord Profile</h2>
+            <p><strong>Name:</strong> TRIYANSH 𝙾𝙿 ☭</p>
+            <p><strong>Username:</strong> DON'T KNOW.</p>
+            <p><strong>User ID:</strong> DON'T KNOW</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Telegram Profile</h2>
+            <p><strong>Name:</strong> 𝚄ɴɪᴠᴇʀsᴇ 𝙾𝙿</p>
+            <p><strong>Username:</strong> @@Unknown_8770</p>
+            <p><strong>User ID:</strong> 2010486266</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

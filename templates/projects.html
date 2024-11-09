@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - {% endblock %}
+
+{% block content %}
+<div class="projects-section">
+    <h1>My Projects</h1>
+    <div class="projects-grid">
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon</p>
+        </div>
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon</p>
+        </div>
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon.</p>
+        </div>
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon.</p>
+        </div>
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon.</p>
+        </div>
+        <div class="project-box animate-box">
+            <h2>Comming Soon</h2>
+            <p>Comming Soon.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>Coded by <span>𝚃𝚞𝚜𝚑𝚊𝚛 𝙾𝚙 💮</span> using <span>Flask & Python</span></p>
+    <p>© 2024 𝚃𝚞𝚜𝚑𝚊𝚛 𝙾𝚙 💮</p>
+</footer>
+
+<script>
+    // Add animation delay to each project box
+    document.querySelectorAll('.project-box').forEach((box, index) => {
+        box.style.transitionDelay = `${index * 0.2}s`;
+    });
+</script>
+{% endblock %}
